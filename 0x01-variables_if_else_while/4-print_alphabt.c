@@ -3,33 +3,33 @@
 
 
 int main(void)
-  
-{
-  
-  char ch = 'a';
-  
-  while(ch <= 'z')
-    
-    {
-      
-      if (ch != 'e' && ch != 'q')
-	
-	{
-	  
-	  putchar(ch);
-	  
-	}
-      
-      ch++;
-      
-    }
-  
-  putchar('\n');
-  
 
-  
-  return 0;
-  
+{
+
+	    char ch = 'a';
+
+	    	while(ch <= 'z')
+
+				{
+
+							if (ch != 'e' && ch != 'q')
+
+										{
+
+														putchar(ch);
+
+																}
+
+									ch++;
+
+										}
+
+			putchar('\n');
+
+
+
+			    return 0;
+
 }
 
 
@@ -39,59 +39,59 @@ int main(void)
 
 
 int main(void)
-  
+
 {
-  
 
-  
-  for (char ch = 'a'; ch <= 'z'; ch++)
-    
-    {
-      
-      if (ch != 'e' && ch != 'q')
-	
-	{
-	  
-	  putchar(ch);
-	  
-	}
-      
-    }
-  
-  putchar('\n');
-  
+	    
 
-  
-  return 0;
-  
+		for (char ch = 'a'; ch <= 'z'; ch++)
+
+				{
+
+							if (ch != 'e' && ch != 'q')
+
+										{
+
+														putchar(ch);
+
+																}
+
+								}
+
+			putchar('\n');
+
+
+
+			    return 0;
+
 }
 
 
 
 int main(void)
-  
+
 {
-  
 
-  
-  for (char ch ='a'; ch <= 'z'; ch++)
-    
-    {
-      
-      if (ch == 'e' || ch == 'q')
-	
-	ch++;
-      
-      putchar(ch);
-      
+	    
 
-      
-    }
-  
-  putchar('\n');
-  
+		for (char ch ='a'; ch <= 'z'; ch++)
 
-  
-  return 0;
-  
+				{
+
+							if (ch == 'e' || ch == 'q')
+
+										    ch++;
+
+									putchar(ch);
+
+											
+
+										}
+
+			putchar('\n');
+
+
+
+			    return 0;
+
 }
