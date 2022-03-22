@@ -17,10 +17,10 @@ int main(void)
 	{
 		if (i == 49)
 		{
-			printf("%1u", f1);
+			printf("%11u", f1);
 		} else
 		{
-			printf("%1u, ", f1);
+			printf("%11u", f1);
 			next = f1 + f2;
 			f1 = f2;
 			f2 = next;
